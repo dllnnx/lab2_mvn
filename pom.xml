@@ -47,7 +47,6 @@
                     </execution>
                 </executions>
             </plugin>
-
             <!-- собираем jar -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -56,8 +55,13 @@
                 <configuration>
                     <archive>
                         <manifest>
+                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                            <addClasspath>true</addClasspath>
                             <mainClass>org.example.Main</mainClass>
                         </manifest>
+                        <manifestEntries>
+                            <Class-Path>lib/pokemon-1.0.jar</Class-Path>
+                        </manifestEntries>
                     </archive>
                 </configuration>
             </plugin>
