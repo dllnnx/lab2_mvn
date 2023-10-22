@@ -21,7 +21,7 @@
             <artifactId>pokemon</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/Pokemon.jar</systemPath>
+            <systemPath>${project.basedir}/lib/Pokemon.jar</systemPath>
         </dependency>
     </dependencies>
 
