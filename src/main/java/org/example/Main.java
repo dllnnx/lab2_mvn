@@ -6,12 +6,12 @@ import ru.ifmo.se.pokemon.*;
 public class Main {
     public static void main(String[] args) {
         Battle b = new Battle();
-        Pokemon p1 = new Moltres("poke1", 1);
-        Pokemon p2 = new Cranidos("poke2", 1);
-        Pokemon p3 = new Rampardos("poke2", 1);
-        Pokemon p4 = new Honchkrow("foe1", 1);
-        Pokemon p5 = new Glameow("foe2", 1);
-        Pokemon p6 = new Purugly("foe3", 1);
+        Pokemon p1 = new Moltres("alena", 1);
+        Pokemon p2 = new Cranidos("bot", 1);
+        Pokemon p3 = new Rampardos("azat", 1);
+        Pokemon p4 = new Honchkrow("Maven", 1);
+        Pokemon p5 = new Glameow("Java", 1);
+        Pokemon p6 = new Purugly("JSF", 1);
 
         b.addAlly(p1);
         b.addAlly(p2);
